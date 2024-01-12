@@ -1,0 +1,176 @@
+body{
+    background-color: #dab3a2;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35pt;
+    color: #36393a;
+    text-align: left;
+}
+
+h2{
+    color: #36393a;
+    font-size: 20pt;
+}
+
+h3{
+    color: #36393a;
+    font-size: 15pt;
+}
+
+p{
+    color: #3a363a;
+    font-size: 11pt;
+}
+
+.l_button{
+    display: inline-block;
+    font-size: 12pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 18px;
+    background: #f5f0ea;
+    color: #36393a;
+    line-height: normal;
+    border: 2px solid #36393a;
+}
+
+.l_button:hover{
+    background: #36393a;
+    color: #f5f0ea;
+}
+
+.t_button{
+    display: inline-block;
+    font-size: 11pt;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    color: #36393a;
+    line-height: normal;
+    border: none;
+}
+
+.view_button{
+    display: inline-block;
+    font-size: 10pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px 12px;
+    background: #f5f0ea;
+    color: #36393a;
+    line-height: normal;
+    border: 2px solid #36393a;
+}
+
+.c_button{
+    display: inline-block;
+    font-size: 15pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 18px;
+    background: rgba(0,0,0,0);
+    color: #36393a;
+    line-height: normal;
+    border: none;
+}
+
+.c_button:hover{
+    text-decoration: underline;
+}
+
+.p_img:hover{
+    opacity: 0.8;
+}
+
+.p_button{
+    display: inline-block;
+    font-size: 15pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 18px;
+    background: rgba(0,0,0,0);
+    color: #36393a;
+    line-height: normal;
+    border: none;
+}
+
+.p_button:hover{
+    text-decoration: underline;
+}
+
+.p_name{
+    font-size: 20pt;
+}
+
+.input_field{
+    background-color: #f5f0ea;
+    color: #36393a;
+    height: 20pt;
+}
+
+.input_button{
+    display: inline-block;
+    font-size: 8pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px 12px;
+    background: #f5f0ea;
+    color: #36393a;
+    line-height: normal;
+    border: 2px solid #36393a;
+}
+
+.input_button:hover{
+    background: #36393a;
+    color: #f5f0ea;
+}
+
+.alert{
+    text-decoration: underline;
+}
+
+.back_button{
+    display: inline-block;
+    font-size: 10pt;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 12px;
+    background: #f5f0ea;
+    color: #36393a;
+    line-height: normal;
+    border: 2px solid #36393a;
+}
+
+.back_button:hover{
+    background: #36393a;
+    color: #f5f0ea;
+}
+
+.clear{
+    clear: both;
+}
+
+.topIcon {
+    display       : inline-block;
+    position      : fixed;
+    bottom        : 0px;
+    right         : 0px;
+    padding       : 25px 26px;
+    background    : #36393a;
+    color         : #ffffff;
+    opacity       : 0.5;
+    font-size     : 21pt;
+    font-weight   : bold;
+    line-height   : 1.2em;
+    letter-spacing: 2px;
+    text-align    : center;
+    cursor        : pointer;
+    z-index       : 999;
+  }
+  
+  .topIcon:hover {
+    opacity       : 0.9;
+  }
